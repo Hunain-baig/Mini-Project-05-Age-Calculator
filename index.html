@@ -1,20 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Age Calculator</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1 class="h1">Age Calculator</h1>
+    <div class="main">
+      <input type="date" id="date" />
+      <button id="btn" onclick="calculateAge()">Calculate Age</button>
+    </div>
 
-    <h1>hello world</h1>
-    
+    <div class="main2">
+      <div class="p">
+        <p id="year">-</p>
+        <h5>Year's</h5>
+      </div>
 
-
-
-
-
+      <div class="p">
+        <p id="month">-</p>
+        <h5>Month's</h5>
+      </div>
+      <div class="p">
+        <p id="day">-</p>
+        <h5>Day's</h5>
+      </div>
+    </div>
     <script src="./app.js"></script>
-</body>
+  </body>
 </html>
